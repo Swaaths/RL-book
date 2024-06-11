@@ -1,6 +1,6 @@
 { sources ? import nix/sources.nix
 , pkgs ? import sources.nixpkgs {}
-, python-version ? "3.8"
+, python-version ? "3.9"
 }:
 let
   versions = {

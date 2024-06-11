@@ -1,7 +1,7 @@
 { sources ? import nix/sources.nix
 , pkgs ? import sources.nixpkgs {}
 , pkgs-unstable ? import sources.nixpkgs-unstable {}
-, python ? pkgs.python38
+, python ? pkgs.python39
 }:
 
 let
